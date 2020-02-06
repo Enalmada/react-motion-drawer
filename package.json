@@ -1,5 +1,5 @@
 {
-  "name": "@gradeup/react-motion-drawer",
+  "name": "react-motion-drawer-alt",
   "version": "3.1.4",
   "description": "Navigation drawer built with the awesome react-motion and react-hammerjs",
   "scripts": {
@@ -39,36 +39,32 @@
   },
   "homepage": "https://github.com/stoeffel/react-motion-drawer",
   "peerDependencies": {
-    "react": "^15.4.2 || ^16.0.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/"
+    "react": "^16.12.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.23.0",
-    "babel-core": "^6.23.1",
-    "babel-eslint": "^8.0.1",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.1.10",
-    "babel-preset-react": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "eslint": "^4.9.0",
-    "eslint-plugin-react": "^7.4.0",
-    "file-loader": "^1.1.5",
-    "npm-run-all": "^4.1.2",
-    "opn-cli": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
+    "file-loader": "^5.0.2",
+    "npm-run-all": "^4.1.5",
+    "opn-cli": "^5.0.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "url-loader": "^0.6.2",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.3"
+    "react-dom": "^16.12.0",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-dev-server": "^3.10.3",
+    "release-it": "^12.4.3"
   },
   "dependencies": {
-    "1-liners": "^0.4.0",
-    "prop-types": "^15.5.10",
+    "1-liners": "^0.4.2",
+    "prop-types": "^15.7.2",
     "react-hammerjs": "^1.0.1",
-    "react-motion": "^0.5.2",
-    "release-it": "^7.4.7"
+    "react-motion": "^0.5.2"
   }
 }
